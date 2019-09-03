@@ -135,7 +135,7 @@ See [LICENSE.txt] for further details.
 
 [pypi-shield]: https://img.shields.io/pypi/v/miscreant.svg
 [pypi-link]: https://pypi.python.org/pypi/miscreant/
-[build-image]: https://secure.travis-ci.org/miscreant/miscreant.py.svg?branch=develop
+[build-image]: https://travis-ci.org/miscreant/miscreant.py.svg?branch=develop
 [build-link]: https://travis-ci.org/miscreant/miscreant.py
 [license-image]: https://img.shields.io/badge/license-MIT-blue.svg
 [license-link]: https://github.com/miscreant/miscreant.py/blob/develop/LICENSE.txt
