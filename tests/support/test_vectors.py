@@ -10,7 +10,7 @@ class AEADExample(namedtuple("AEADExample", ["name", "alg", "key", "ad", "nonce"
     @staticmethod
     def load():
         """Load message examples from vectors/aes_siv_aead.tjson"""
-        return AEADExample.load_from_file("../vectors/aes_siv_aead.tjson")
+        return AEADExample.load_from_file("vectors/aes_siv_aead.tjson")
 
     @staticmethod
     def load_from_file(filename):
@@ -40,7 +40,7 @@ class AESExample(namedtuple("AESExample", ["key", "src", "dst"])):
     @staticmethod
     def load():
         """Load message examples from vectors/aes.tjson"""
-        return AESExample.load_from_file("../vectors/aes.tjson")
+        return AESExample.load_from_file("vectors/aes.tjson")
 
     @staticmethod
     def load_from_file(filename):
@@ -66,7 +66,7 @@ class PMACExample(namedtuple("PMACExample", ["name", "key", "message", "tag"])):
     @staticmethod
     def load():
         """Load message examples from vectors/aes_pmac.tjson"""
-        return PMACExample.load_from_file("../vectors/aes_pmac.tjson")
+        return PMACExample.load_from_file("vectors/aes_pmac.tjson")
 
     @staticmethod
     def load_from_file(filename):
@@ -93,7 +93,7 @@ class SIVExample(namedtuple("SIVExample", ["name", "key", "ad", "plaintext", "ci
     @staticmethod
     def load():
         """Load message examples from vectors/aes_siv.tjson"""
-        return SIVExample.load_from_file("../vectors/aes_siv.tjson")
+        return SIVExample.load_from_file("vectors/aes_siv.tjson")
 
     @staticmethod
     def load_from_file(filename):
@@ -121,7 +121,7 @@ class PMACSIVExample(SIVExample):
     @staticmethod
     def load():
         """Load message examples from vectors/aes_pmac_siv.tjson"""
-        return SIVExample.load_from_file("../vectors/aes_pmac_siv.tjson")
+        return SIVExample.load_from_file("vectors/aes_pmac_siv.tjson")
 
 class STREAMBlock(namedtuple("STREAMBlock", ["ad", "plaintext", "ciphertext"])):
         pass
@@ -130,7 +130,7 @@ class STREAMExample(namedtuple("STREAMExample", ["name", "alg", "key", "nonce", 
     @staticmethod
     def load():
         """Load message examples from vectors/aes_siv_stream.tjson"""
-        return STREAMExample.load_from_file("../vectors/aes_siv_stream.tjson")
+        return STREAMExample.load_from_file("vectors/aes_siv_stream.tjson")
 
     @staticmethod
     def load_from_file(filename):
@@ -166,7 +166,7 @@ class DblExample(namedtuple("DblExample", ["input", "output"])):
     @staticmethod
     def load():
         """Load message examples from vectors/dbl.tjson"""
-        return DblExample.load_from_file("../vectors/dbl.tjson")
+        return DblExample.load_from_file("vectors/dbl.tjson")
 
     @staticmethod
     def load_from_file(filename):

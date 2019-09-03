@@ -10,7 +10,7 @@ setup(
     long_description="Misuse resistant symmetric encryption library providing AES-SIV (RFC 5297), AES-PMAC-SIV, and STREAM constructions",
     author="Tony Arcieri",
     author_email="bascule@gmail.com",
-    url="https://github.com/miscreant/miscreant/tree/master/python/",
+    url="https://miscreant.io",
     packages=find_packages(exclude=["tests"]),
     package_dir={"miscreant": "miscreant"},
     include_package_data=True,
